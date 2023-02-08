@@ -3,8 +3,8 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Telefon zil sesleri 2023 | Bedava zil sesi indir",
-    "og_des" => "Herunterladen play top klingeltöne kostenlos. Hits pause als klingelton kostenlos für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne kostenlos charts 2022.",
+    "title" => "Telefon zil sesleri 2023 | Bedava için sesi iphone play pause",
+    "og_des" => "Herunterladen play top sesleri klingeltöne kostenlos. Hits için pause als klingelton kostenlos für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne kostenlos charts 2022.",
     "og_title" => "Top Klingeltöne kostenlos - Klingelton downloaden 2022"
 ])
 
@@ -262,7 +262,7 @@
                 <div id="container-cfq">
                     <div class="page-description summary">
                         <h1 class="gt-title page-title"><i class="fa fa-bullhorn" aria-hidden="true">
-                                En yeni zil sesleri 2023'ü telefonunuz için tamamen ücretsiz indirin
+                                En yeni zil sesleri pause 2023'ü play telefonunuz için tamamen ücretsiz indirin iphone
                             </i></h1>
                         <div class="entry-content">
                             @php echo $post @endphp
