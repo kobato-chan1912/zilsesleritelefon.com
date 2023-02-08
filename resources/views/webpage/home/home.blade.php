@@ -3,8 +3,8 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Telefon zil sesleri 2023 | Bedava zil sesi indir - Zilsesleritelefon",
-    "og_des" => "Herunterladen top klingeltöne kostenlos. Hits als klingelton kostenlos für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne kostenlos charts 2022.",
+    "title" => "Telefon zil sesleri 2023 | Bedava zil sesi indir",
+    "og_des" => "Herunterladen play top klingeltöne kostenlos. Hits pause als klingelton kostenlos für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne kostenlos charts 2022.",
     "og_title" => "Top Klingeltöne kostenlos - Klingelton downloaden 2022"
 ])
 
@@ -294,6 +294,8 @@
     </div>
 </section>
 @include("webpage.layouts.footer")
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e379abd69ec2ff"></script>
 
 </body>
 
