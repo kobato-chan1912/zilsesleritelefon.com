@@ -140,11 +140,7 @@ Route::any('/ckfinder/browser', '\CKSource\CKFinderBridge\Controller\CKFinderCon
 Route::get("/sitemap.xml", "SitemapController@index");
 
 Route::prefix("/")->group(function (){
-
    Route::get("/", "WebPageController@indexHome")->name("webPageIndex");
-    Route::get("/page/{page}", function($page){
-        return redirect(env("WEBPAGE_URL"). "?page=". $page);
-    });
 //   Route::get("/newest", "WebPageController@newest");
     Route::get("/page/{page}", function($page){
         return redirect(env("WEBPAGE_URL"). "?page=". $page);
