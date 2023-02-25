@@ -30,8 +30,8 @@ class WebPageCategoryController extends Controller
         $songs = Song::orderBy("id", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs,
             "En Yeni Zil Sesleri",
-            "En İyi Zil Sesleri - En sevilen zil seslerin listesini indirin ". Carbon::today()->year,
-            "Burada, özenle seçilmiş binlerce En İyi Zil Sesleri listesini sunuyoruz. Tüm güzel zil sesleri ücretsiz ve yüksek kalitededir .". Carbon::today()->year);
+            "En Yeni Zil Sesleri - Ücretsiz Telefon Zil Sesleri İndir ". Carbon::today()->year,
+            "Cep telefonunuz için en yeni telefon zil sesleri koleksiyonu. Zilsesleritelefon.com'da tüm telefonlar için ücretsiz ve hızlı zil sesleri indirin.");
     }
 
 
@@ -39,8 +39,8 @@ class WebPageCategoryController extends Controller
     {
         $songs = Song::orderBy("listeners", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs, "En Popüler Zil Sesleri",
-            "En Popüler Zil Sesleri " . Carbon::today()->year. " - En sevilen zil seslerin listesini indirin",
-            "Laden Sie die Besten und beliebstesten hits als Klingeltöne " . Carbon::today()->year. " für Ihr Handy herunter. Hier finden Sie eine Liste der meist herunterladen beste klingeltöne charts von unserer Webseite.",
+            "En Popüler Zil Sesleri - En İyi Zil Sesleri Ücretsiz İndir",
+            "Günümüzün popüler zil seslerini sentezleyin. Telefonunuz için çok çeşitli türlerde ve tüm mobil cihazlara uygun en iyi ve ücretsiz zil seslerini indirin",
         );
     }
 
@@ -91,8 +91,8 @@ class WebPageCategoryController extends Controller
     public function losMejores(){
         $songs  = Song::orderBy("downloads", "desc")->where("display", 1)->paginate(10);
         return $this->loadView($songs, "En İyi 10 Zil Sesleri",
-            "En Yeni Zil Sesleri " . Carbon::today()->year. "  - Düzenli olarak güncellenen En Yeni Zil Sesi bir listesini indirin",
-            "Burada, düzenli olarak güncellenen binlerce En Yeni Zil Sesleri bir listesini sunuyoruz. Tüm zil sesi ücretsizdir ve yüksek kalitededir.",
+            "Bugün En Çok İndirilen 10 Zil Koleksiyonu - Ücretsiz İndir",
+            "Bugünün En Çok İndirilen Telefon Zil Sesleri Koleksiyonu - Bugünün En Çok İndirilen ve Dinlenen Telefon Zil Sesleri. Telefonunuz için ücretsiz indirme",
         );
     }
     public function search(Request $request, $search){

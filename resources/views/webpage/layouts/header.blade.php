@@ -17,15 +17,15 @@
                 <ul class="nav navbar-nav">
                     <li id="menu-item-4475"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4475">
-                        <a title="Portada" href="{{route("webPageIndex")}}">Ana Sayfa</a></li>
+                        <a href="{{route("webPageIndex")}}">Ana Sayfa</a></li>
                     <li id="menu-item-4479"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4479 @if(URL::current()== route("newest")) active @endif"><a
-                            title="&Uacute;ltimos" href="{{route("newest")}}"><span
+                             href="{{route("newest")}}"><span
                                 class="glyphicon &Uacute;ltimos tonos de llamada"></span>&nbsp;En Yeni Zil Sesleri   </a>
                     </li>
                     <li id="menu-item-4484"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4479 @if(URL::current()== route("popularSongs")) active @endif"><a
-                            title="&Uacute;ltimos" href="{{route("popularSongs")}}"><span
+                             href="{{route("popularSongs")}}"><span
                                 class="glyphicon &Uacute;ltimos tonos de llamada"></span>&nbsp;En Popüler Zil Sesleri  </a>
                     </li>
 

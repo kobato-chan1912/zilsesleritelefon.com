@@ -3,8 +3,8 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Telefon Zil Sesleri ". \Carbon\Carbon::now()->year ." - En yi zil seslerini ücretsiz indir",
-    "og_des" => "Herunterladen play top sesleri klingeltöne kostenlos. Hits için pause als klingelton kostenlos für Android und iPhone. Klingeltöne fürs handy in formaten von mp3 und m4r. Klingeltöne kostenlos charts 2022.",
+    "title" => "Telefon Zil Sesleri ". \Carbon\Carbon::now()->year ." - Ücretsiz Zil Sesi İndirmeleri",
+    "og_des" => "En iyi zil sesleri 2023'ü ücretsiz indirin. Zilsesleritelefon.com'dan en yeni zil seslerini yüksek kalitede, hızlı ve kolay bir şekilde indirin.",
     "og_title" => "Top Klingeltöne kostenlos - Klingelton downloaden 2022"
 ])
 
